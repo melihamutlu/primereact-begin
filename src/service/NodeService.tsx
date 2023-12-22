@@ -2,6 +2,17 @@ export const NodeService = {
     getTreeNodesData() {
         return [
             {
+                {
+                key:'3',
+                label:'Profil',
+                data: 'profil',
+                icon: 'pi pi-fw pi-user',
+                children: [
+                    { key: '3-0', label: 'Düzenle', data: 'düzenle', icon: 'pi pi-fw pi-user-edit'}
+                ]
+
+            },
+            {
                 key: '1',
                 label: 'Etkinlik Takvimi',
                 data: 'Events Folder',
