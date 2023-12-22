@@ -2,7 +2,6 @@ export const NodeService = {
     getTreeNodesData() {
         return [
             {
-                {
                 key:'3',
                 label:'Profil',
                 data: 'profil',
